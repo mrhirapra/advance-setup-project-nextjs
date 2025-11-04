@@ -1,0 +1,13 @@
+# Ignore generated and meta files
+node_modules
+.next
+build
+dist
+coverage
+package-lock.json
+*.log
+README.md
+
+# Ignore configs to avoid Prettier parse errors
+commitlint.config.js
+.husky/
